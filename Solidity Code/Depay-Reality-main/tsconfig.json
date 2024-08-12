@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es2020",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./lib",
+    "./scripts",
+    "./test",
+    "./typechain-types",
+    "src/**/*",
+    "tasks/**/*",
+    "test/**/*",
+    "deploy/**/*"
+  ],
+  "exclude": ["node_modules"],
+  "files": ["./hardhat.config.ts"]
+}
